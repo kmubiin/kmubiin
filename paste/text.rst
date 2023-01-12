@@ -17,17 +17,17 @@ Horizontal rule:
 
 ----
 
-Bullet list:
+Nested lists:
 
-* apples
-* oranges
-* pears
+1. fruits
 
-Numbered list:
+   * apple
+   * banana
 
-1. lather
-2. rinse
-3. repeat
+2. vegetables
+
+   * carrot
+   * broccoli
 
 An `example <http://example.com>`_.
 
