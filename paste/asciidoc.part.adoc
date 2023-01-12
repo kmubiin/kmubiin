@@ -1,0 +1,50 @@
+AsciiDoc User Guide
+===================
+AsciiDoc.py Team
+:toc:
+:icons:
+:numbered:
+:website: https://asciidoc.org/
+
+AsciiDoc is a text document format for writing notes, documentation,
+articles, books, ebooks, slideshows, web pages, blogs and UNIX man
+pages.  AsciiDoc files can be translated to many formats including
+HTML, PDF, EPUB, man page.  AsciiDoc is highly configurable: both the
+AsciiDoc source file syntax and the backend output markups (which can
+be almost any type of SGML/XML markup) can be customized and extended
+by the user.
+
+[WARNING]
+This user guide is for AsciiDoc.py, which is a legacy processor for
+this syntax, handling an older rendition of AsciiDoc. As such, this
+will not properly handle the
+https://projects.eclipse.org/projects/technology.asciidoc[current AsciiDoc specification].
+It is suggested that unless you specifically require the AsciiDoc.py
+toolchain, you should find a processor that handles the modern
+AsciiDoc syntax.
+
+.This document
+**********************************************************************
+This is an overly large document, it probably needs to be refactored
+into a Tutorial, Quick Reference and Formal Reference.
+
+If you're new to AsciiDoc read this section and the <<X6,Getting
+Started>> section and take a look at the example AsciiDoc (`*.txt`)
+source files in the distribution `doc` directory.
+**********************************************************************
+
+
+Introduction
+------------
+AsciiDoc is a plain text human readable/writable document format that
+can be translated to DocBook or HTML using the asciidoc(1) command.
+You can then either use asciidoc(1) generated HTML directly or run
+asciidoc(1) DocBook output through your favorite DocBook toolchain or
+use the AsciiDoc a2x(1) toolchain wrapper to produce PDF, EPUB, DVI,
+LaTeX, PostScript, man page, HTML and text formats.
+
+The AsciiDoc format is a useful presentation format in its own right:
+AsciiDoc markup is simple, intuitive and as such is easily proofed and
+edited.
+
+--- PARTIAL COPY EDIT OF https://asciidoc-py.github.io/asciidoc.txt ---
