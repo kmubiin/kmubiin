@@ -40,6 +40,7 @@ An `example <http://example.com>`_.
 | Multi-line text can
 | span in tables
 | with a pipe character.
+
 ...
 
 --- PARTIAL COPY EDIT OF https://en.wikipedia.org/wiki/ReStructuredText ---
