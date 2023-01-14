@@ -21,13 +21,13 @@ Nested lists:
 
 1. fruits
 
-   * apple
-   * banana
+  * apple
+  * banana
 
 2. vegetables
 
-   * carrot
-   * broccoli
+  * carrot
+  * broccoli
 
 An `example <http://example.com>`_.
 
