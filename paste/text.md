@@ -22,12 +22,12 @@ Horizontal rule:
 
 Bullet lists nested within numbered list:
 
-  1. fruits
-     * apple
-     * banana
-  2. vegetables
-     - carrot
-     - broccoli
+1. fruits
+    * apple
+    * banana
+2. vegetables
+    - carrot
+    - broccoli
 
 A [link](http://example.com).
 
