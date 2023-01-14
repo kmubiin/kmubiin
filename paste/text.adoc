@@ -1,0 +1,71 @@
+= Heading
+:url-asciidoc: https://asciidoc.org
+
+== Sub-heading
+
+Alternative heading
+===================
+
+Alternative sub-heading
+-----------------------
+
+Paragraphs are separated 
+by a blank line.
+
+One plus-sign + at the end of a line +
+produce a line break.
+
+Text attributes _italic_, **bold**, `monospace`.
+
+Horizontal rule (Markdown-like):
+
+'''
+---
+
+Bullet lists nested within numbered list (Markdown-like):
+
+1. fruits
+    * apple
+    * banana
+2. vegetables
+    - carrot
+    - broccoli
+
+A http://example.com[link].
+A reusable link to {url-asciidoc}[AsciiDoc].
+
+____
+free blockquote between four underscore characters
+____
+
+[quote,AsciiDoc,with description]
+otherwise AsciiDoc quotes like this
+
+// comment: for some reason, no spacing between blockquotes seen on github
+
+"or inside double quotes and followed by two dashes in next line"
+-- AsciiDoc blockquote
+
+=== Markdown compatibility syntax
+
+# Document title (Markdown-like)
+
+## Section Level 1
+
+### Section Level 2
+
+#### Section Level 3
+
+##### Section Level 4
+
+###### Section Level 5
+
+> AsciiDoc via Asciidoctor can use email-style
+characters for blockquoting.
+>
+> Multiple paragraphs need to be prepended individually (Markdown-like).
+
+Inline <abbr title="Hypertext Markup Language">HTML</abbr> tags are ignored.
+...
+
+--- PARTIAL REMIX OF https://en.wikipedia.org/wiki/Markdown and https://asciidoc.org/ ---
